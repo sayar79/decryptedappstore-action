@@ -3,7 +3,7 @@ author: level3tjg
 description: Download decrypted IPA from https://armconverter.com/decryptedappstore
 inputs:
   appstore_url:
-    description: AppStore URL for the app you want to download
+    description: https://apps.apple.com/tr/app/hello-neighbor/id1386358600?l=tr 
     required: true
     type: string
   cache:
@@ -18,12 +18,12 @@ inputs:
     required: true
     type: string
   version:
-    description: Version of the app to download
+    description: 1.1
     default: latest-available
     type: string
 outputs:
   bundle-id:
-    description: "Bundle ID of the downloaded app"
+    description: "com.tinybuildgames.helloneighbor"
     value: "${{ steps.app-info.outputs.bundle-id }}"
   version:
     description: "Version string of the downloaded app"
@@ -46,8 +46,8 @@ runs:
       env:
         DEBIAN_FRONTEND: noninteractive
 
-    - name: Get app info
-      id: app-info
+    - name: Hello Neighbor
+      id: 1386358600
       shell: bash
       run: |
         appstore_url="${{ inputs.appstore_url }}"
