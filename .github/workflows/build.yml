@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         url:
-          - "https://apps.apple.com/tr/app/red-ball-3-hd/id426375395"
-          - "https://apps.apple.com/tr/app/red-ball-3/id426371390"
+          - "https://apps.apple.com/tr/app/dark-riddle-classic/id1541314574?l=tr"
+          - "https://apps.apple.com/tr/app/dark-riddle-classic/id1541314574?l=tr"
         path:
           - App.ipa
           - ''
