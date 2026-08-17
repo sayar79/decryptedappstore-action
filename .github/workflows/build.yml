@@ -12,8 +12,8 @@ jobs:
     strategy:
       matrix:
         url:
-          - "https://apps.apple.com/us/app/reddit/id1064216828"
-          - "https://apps.apple.com/us/app/twitch-live-streaming/id460177396"
+          - "https://apps.apple.com/tr/app/red-ball-3-hd/id426375395"
+          - "https://apps.apple.com/tr/app/red-ball-3/id426371390"
         path:
           - App.ipa
           - ''
